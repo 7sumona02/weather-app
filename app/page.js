@@ -81,7 +81,7 @@ const Page = () => {
             </div>
             <div className='section3'>
               {weatherData && (
-                <div className='text-zinc-400 px-10 pt-[390px]'>
+                <div className='text-zinc-400 px-10 pt-[300px]'>
                   <h2 className='font-bold text-zinc-200'>Weather Details</h2>
                   <div className='translate-y-10 flex flex-col gap-4'>
                     <p>Cloudiness: {weatherData.clouds.all}%</p>
